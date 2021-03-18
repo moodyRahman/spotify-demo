@@ -45,7 +45,6 @@ function Auth() {
         history.push("/home");
       });
   }, [setAccessToken, setRefreshToken, history, location.search]);
-
   // dependency array contains only immutable function references
   // this useEffect should run only ever once
 

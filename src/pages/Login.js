@@ -1,5 +1,5 @@
 function Login({ my_client_id }) {
-  var scopes = "user-read-private user-read-email";
+  var scopes = "user-read-private user-read-email streaming user-read-playback-state user-modify-playback-state";
   var redirect_uri = "http://localhost:3000/auth";
   var auth_uri =
     "https://accounts.spotify.com/authorize" +
